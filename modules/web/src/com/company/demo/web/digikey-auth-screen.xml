@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://caption"
+        messagesPack="com.company.demo.web">
+    <layout height="AUTO" spacing="true">
+        <textArea id="statusField" caption="msg://authenticationResult" rows="3" width="300px"/>
+        <vbox id="actionsPanel" spacing="true" width="250px">
+            <button id="authenticateBtn" caption="msg://authenticate" icon="font-icon:GLOBE" width="100%"/>
+            <button id="refreshTokenBtn" caption="msg://refreshToken" icon="font-icon:REFRESH" width="100%"/>
+        </vbox>
+    </layout>
+</window>
